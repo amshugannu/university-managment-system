@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>np</title>
+    <link rel="stylesheet" type="text/css" href="np.css">
+
+</head>
+<body>
+    <nav style="background-color:aqua;">
+        <img src="C:\Users\amshu\Downloads\Telegram Desktop\PSX_20221127_212145.png" alt="" class="unilogo">
+
+        <ul>
+            <li class="title"><a href="C:\Users\amshu\OneDrive\Desktop\HTML Website\np.html">Home</a></li>
+            <li class="title"><a href="C:\Users\amshu\OneDrive\Desktop\HTML Website\academics.html">Academics</a></li>
+            <li class="title"><a href="C:\Users\amshu\OneDrive\Desktop\HTML Website\TT.html">Time table</a></li>
+            <li class="title"><a href="#">Examinations</a></li>
+            <li class="title"><a href="C:\Users\amshu\OneDrive\Desktop\HTML Website\fp.html">Change password</a></li>
+            <li class="title"><a href="C:\Users\amshu\OneDrive\Desktop\HTML Website\logout.html">Logout</a></li>
+        </ul>
+            
+    </nav>
+
+    <div class="hero">
+        <div class="maindiv">
+            <div class="slider">
+              <!--<div class="wrapper">
+                    <div class="wrapper-holder">
+                        <div id="slider-img-1"></div>
+                        <div id="slider-img-2"></div>
+                        <div id="slider-img-3"></div>
+                        <div id="slider-img-4"></div>
+                        <div id="slider-img-5"></div>
+                        
+                    </div>
+                </div>
+                <div class="button-holder">
+                    <a href="#slider-img-1" class="button"></a>
+                    <a href="#slider-img-2" class="button"></a>
+                    <a href="#slider-img-3" class="button"></a>
+                    <a href="#slider-img-4" class="button"></a>
+                    <a href="#slider-img-5" class="button"></a>
+                </div>-->
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade">
+                      <div class="numbertext">1 / 3</div>
+                      <img src="C:\Users\amshu\OneDrive\Desktop\HTML Website\slider-img1.webp" style="width:103% ;height: 425px;margin-right: 20px;">
+                      <div class="text">Caption Text</div>
+                    </div>
+                    
+                    <div class="mySlides fade">
+                      <div class="numbertext">2 / 3</div>
+                      <img src="C:\Users\amshu\OneDrive\Desktop\HTML Website\slider-img2.jpg" style="width:103%;height: 425px;margin-right: 20px;">
+                      <div class="text">Caption Two</div>
+                    </div>
+                    
+                    <div class="mySlides fade">
+                      <div class="numbertext">3 / 3</div>
+                      <img src="C:\Users\amshu\OneDrive\Desktop\HTML Website\slider-img3.jpg" style="width:103%;height:425px;margin-right: 20px;">
+                      <div class="text">Caption Three</div>
+                    </div>
+                    
+                    </div>
+                    <br>
+                    
+                    <div style="text-align:center">
+                      <span class="dot"></span> 
+                      <span class="dot"></span> 
+                      <span class="dot"></span> 
+                    </div>
+                    <script>
+                        let slideIndex = 0;
+                        showSlides();
+                        
+                        function showSlides() {
+                          let i;
+                          let slides = document.getElementsByClassName("mySlides");
+                          let dots = document.getElementsByClassName("dot");
+                          for (i = 0; i < slides.length; i++) {
+                            slides[i].style.display = "none";  
+                          }
+                          slideIndex++;
+                          if (slideIndex > slides.length) {slideIndex = 1}    
+                          for (i = 0; i < dots.length; i++) {
+                            dots[i].className = dots[i].className.replace(" active", "");
+                          }
+                          slides[slideIndex-1].style.display = "block";  
+                          dots[slideIndex-1].className += " active";
+                          setTimeout(showSlides, 2000); // Change image every 2 seconds
+                        }
+                        </script>
+         
+            </div>
+            <div class="events">
+                <div>
+                    <div class="eventsdiv">
+                        <p style="font-weight: 600;font-size: 25px;font-family: 'Times New Roman', Times, serif;color: darkred;">Events</p>
+                        <div class="event1">
+                            <b>Freshermen Induction</b>
+                            <p>Date:13-12-2022</p>
+                            <p>Time:09:00am</p>
+                            <p>Venue:University Auditorium</p>
+                        </div>
+                        <div class="event2">
+                            <b>North Zone Inter University-Hockey MEN</b>
+                            <p>Date:22-12-2022</p>
+                            <p>Time:09:00am</p>
+                            <p>Venue:University Play Ground</p>
+                        </div>
+                        <div class="event3">
+                            <b>Inter Zonal University-Badminton Women</b>
+                            <p>Date:26-12-2022</p>
+                            <P>Time:04:00pm</P>
+                            <p>Venue:Indoor Badminton court</p>  
+                        </div>
+                        <div class="event4">
+                            <b>Inter Hostel Chess Competition</b>
+                            <p>Date:17-12-2022</p>
+                            <p>Time:06:00pm</p>
+                            <p>Venue:Inovation Hall</p>
+                        </div>
+                        <div class="event5">
+                            <b>All India Inter University JUDO-Women</b>
+                            <p>Date:08-01-2023</p>
+                            <p>Time:10:00am</p>
+                            <p>Venue:Indoor Stadium</p>
+                        </div>
+                        
+
+                    </div>
+                </div>
+                
+
+            </div>
+        </div>
+        <div class="maindiv2">
+            <div class="grid-item" id="student">
+                <p style="font-size: 25px ;font-weight: 600;font-family: 'Times New Roman', Times, serif; color:darkred">Student Details</p>
+                <div class="responsive">
+                    <div class="gallery">
+                        <div class="profilepic">
+                            <img src="C:\Users\amshu\OneDrive\Desktop\HTML Website\passportsizeimg1.jpg" alt="" width="120"
+                                height="120">
+                        </div>
+
+                        <div class="desc"><b>Welcome<br>Faisal Mohammad Naik</b><br>
+                            <b class="registration"><b>(12227324)</b></b>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="details">
+                    <li><B>Roll No-RKOC12A32(Term:122231)</B></li>
+                    <li><b>Section:KOC12(Group1)</b></li>
+                    <li><b>Programme - P132-NNM::B.Tech. (Computer Science Engineering) - Artificial Intelligence and Data Science
+                           </b></li>
+                    <li><b> Books Issued from Library - 0</b> </li>
+                </div>
+
+            </div>
+            <div class="grid-item" id="attend2">
+                <p style="font-weight:600;font-size:25px;font-family:'Times New Roman', Times, serif;color: darkred;"><b>Attendence View</b></p>
+                <div class="attendence">
+                    <div class="boxy">
+                        <li>RKOC12A32<br>CSE326|INTERNET PROGRAMMING LABORATORY|</li>
+                        <div class="container">
+
+                            <div class="progress1">
+                                <b>88%</b>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="boxy">
+                        <li>RKOC12A32<BR>INT108|PYTHON PROGRAMMING|</li>
+                        <div class="container">
+                            <div class="progress2">
+                                <b>93%</b>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="boxy">
+                        <li>RKOc12A32<br>MEC135|BASICS OF MECHANICAL ENGINEERING|</li>
+                        <div class="container">
+                            <div class="progress3">
+                                <b>100%</b>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="boxy">
+                        <li>RKOC12A32<br>MTH174|ENGINEERING MATHEMATICS|</li>
+                        <div class="container">
+                            <div class="progress4">
+                                <b>97%</b>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="boxy">
+                        <li>RKOC12A32<br>PES318|SOFT SKILLS|</li>
+                        <div class="container">
+                            <div class="progress5">
+                                <b>96%</b>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="boxy">
+                        <li>RKOC12A32<br>PHY110|ENGINEERING PHYSICS|</li>
+                        <div class="container">
+                            <div class="progress6">
+                                <b>91%</b>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+
+            </div>
+            <div class="grid-item"  style="height:240px;background-color: #E2DAD4;border-radius: 2%;" id="grid-box">
+                <div class="anouncements">
+                    <p style="font-weight: 600; font-size: 25px;font-family: 'Times New Roman', Times, serif;color: darkred;">Announcements</p>
+                    
+                    <li>
+                    <b>Session by EDC India An opportunity for raising Seed Fund Nov 17,2022
+                        The Department of Entrepreneurship under the aegis of Division of Innovation and
+                        Entrepreneurship, LPU is going to organize an event in collaboration with EDC
+                        India,
+                        events consists of finalizing MoU and Pitching startups for funding on 18th Nov,
+                        2022. We are delighted to collaborate with EDC INDIA for boosting students'
+                        entrepreneurial ideas at Lovely Professional University.
+                    </b><br>
+                    Resource Person :- Chandan Tiwari (Founder & CEO - EDC India)
+
+                    Session Details:-
+
+                    First Session: Session on Funding opportunities.
+
+                    Second Session: Pitch Deck.
+
+                    The details of Event to be conducted are mentioned below:
+
+                    Date :- 18th Nov, 2022.
+
+                    Time :- 10:00AM to 5:00PM
+
+                    Venue:- Block 25, Room no. 105.
+
+                    Registration Link - https://forms.gle/Vj3tPMYooARfNNH68
+
+                    Uploaded By:
+                    Dr. Sorabh Lakhanpal
+                    Division of Innovation and Entreprenuership
+                    *This is computer generated notice, not requiring signature
+                    </li>
+                    <li><b>Winter PEP for 2023 Unplaced and 2024 passing out batch placement registered
+                        students.</b>
+                    (11/5/2022 5:25:36 PM)
+                    <br><br>
+                    Dear Aspirant,
+
+                    A winter training program has been designed for 2023 Unplaced and 2024 passing out
+                    placement
+                    registered students of below mentioned schools. We are sure that this training
+                    program
+                    will
+                    be a formidable step as we head towards the placement season. Wholehearted
+                    participation
+                    in
+                    Winter Pep from your side can make a meaningful difference in exploring the right
+                    career
+                    option. Please find the relevant details
+                </li>
+                <li>
+                    <b>Display of Draft Date sheet for End Term Examination (ETE)-Term I, Session
+                        2022-23.
+                        (Ref. No. LPU/DOE/IC/221105/011) (11/5/2022 2:06:00 PM)</b>
+                    <br><br>
+                    All the students are hereby informed that the Draft Date Sheet for the upcoming End
+                    Term
+                    Examination (ETE) for Term I, Session 2022-23 has been displayed in the student UMS
+                    Login under the following link.
+
+
+
+                    UMS Navigation—>Examination system—> Exam Seating Plan
+
+
+
+                    In case of any reservation /clashes with regard to the date sheet, please report the
+                    same to your faculty or the Division of Examination in block 32, room no. 101A,
+                    latest
+                    by 12th November 2022.
+
+                    In this regard students can also log an RMS for the same via the UMS path:
+
+
+
+                    UMS Navigation --- >Relationship Management System (RMS) ---> Log Request
+                    --->Division
+                    of Examination ---> Examination ---> Seating Plan-Theory/ETP Exams
+
+
+
+                    The reported reservations /clashes found suitable for consideration shall be
+                    accommodated in the date sheet. After the stated dates, the date sheet for ETE will
+                    be
+                    considered as final and no request for any change in date sheet will be considered
+                    afterwards.
+
+                    Uploaded By:
+                    Office of HOD
+                    Division of Examination
+                    *This is computer generated notice, not requiring signature
+                </li>
+
+                </div>
+                <div class="teacher-on-leave">
+                    <p style="font-weight:600;font-size:25px;font-family:'Times New Roman', Times, serif;color: darkred;">Teacher On Leave</p>
+                    <div class="t1">
+                        <p style="font-weight: 600;font-size: 20px;font-family: 'Times New Roman', Times, serif;">Course Code:MEC135</p>
+                        <HR>
+                        <li><b>Dr.Rohith Sharma</b><br><b>Leave Time:Full-day</b></li>
+                    </div>
+                    <div class="t2">
+                        <p style="font-weight: 600;font-size: 20px;font-family: 'Times New Roman', Times, serif;">Course Code:PHY110</p>
+                        <hr>
+                        <li><b>Dr.Sandeep Singh</b><br> <b>Leave Time:Half-day</b></li>
+                    </div>
+                </div>
+
+            </div>
+            
+           
+        </div>
+       
+    </div>
+
+    
+</body>
+</html>
